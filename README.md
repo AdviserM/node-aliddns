@@ -12,6 +12,7 @@ cd node-aliddns
 #### 修改配置文件
 
 ```javascript
+// config/index.js
 module.exports = {
     //阿里云网站-访问控制-创建用户，添加权限：管理云解析（DNS）的权限-创建AccessKey，得到accessKeyId和accessKeySecret
     accessKeyId: '',
