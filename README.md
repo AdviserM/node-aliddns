@@ -1,9 +1,10 @@
 ### node-aliddns
 动态更新阿里云域名绑定的ip
 支持ipv4与ipv6
+支持docker部署
 #### 克隆代码
 ```shell
-    git clone 
+    git clone https://github.com/AdviserM/node-aliddns.git
     cd node-aliddns
 ```
 #### 修改配置文件
@@ -21,7 +22,7 @@
 }
 
 ```
-#### 运行
+### 运行
 #### 直接运行 需要nodejs环境
 ```shell
 安装依赖
@@ -29,7 +30,7 @@ yarn 或者 npm i
 yarn start 或者 npm run start  
 ```
 
-### dokcer方式运行
+#### dokcer方式运行
 ```shell
 # 构建docker镜像
 docker build -t nodeAliddns .
