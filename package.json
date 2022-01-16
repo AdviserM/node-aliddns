@@ -1,0 +1,14 @@
+{
+  "name": "node-aliddns",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "keywords": ["ddns","alicloud","ipv4","ipv6"],
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "public-ip": "^4.0.4"
+  }
+}
